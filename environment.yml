@@ -1,12 +1,25 @@
-name: gpgLabs-environment
+name: geosci-labs
 
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - numpy
-  - scipy
-  - 'matplotlib < 3.0.0'
+  - cvxopt
+  - deepdish
+  - discretize=0.7.0
+  - empymod=2.0.0
+  - ipywidgets>=0.6.0
+  - jupyter
+  - matplotlib<3.5
+  - mkl>=2021.3.0
+  - numpy>=1.21
+  - Pillow
+  - pip
+  - pymatsolver
+  - python=3.8
+  - requests
+  - scipy>=1.7
+  - scikit-learn<1.0
+  - SimPEG=0.15.0
   - pip:
-    - git+https://github.com/simpeg/geoana
-    - git+https://github.com/geoscixyz/gpgLabs
+    - git+https://github.com/geoscixyz/geosci-labs

@@ -2,8 +2,8 @@
 
 # gpgLabs
 
-[![binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/master?filepath=Notebooks%2Findex.ipynb)
-[![travis](https://travis-ci.org/geoscixyz/gpgLabs.svg?branch=master)](https://travis-ci.org/geoscixyz/gpgLabs)
+[![Syzygy](https://img.shields.io/badge/launch-syzygy-important)](https://ubc.syzygy.ca/jupyter/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fgeoscixyz%2FgpgLabs&urlpath=tree%2FgpgLabs%2Fnotebooks%2Findex.ipynb)
+[![binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/main?filepath=notebooks%2Findex.ipynb)
 [![SimPEG](https://img.shields.io/badge/powered%20by-SimPEG-blue.svg)](http://simpeg.xyz)
 
 ## Overview
@@ -11,7 +11,7 @@
 This is a repo of interactive examples for http://gpg.geosci.xyz.
 
 The notebooks are available on
-- [Binder](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/master?filepath=Notebooks%2Findex.ipynb)
+- [Binder](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/main?filepath=notebooks%2Findex.ipynb)
 
 <!-- <img src="https://em.geosci.xyz/_images/DC_LayeredEarth_notebook.png" width=60% align="center">
  -->
@@ -22,9 +22,9 @@ The notebooks can be run online through [Binder](#Binder), or [downloaded and ru
 
 ### Binder
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/master?filepath=Notebooks%2Findex.ipyn)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/geoscixyz/gpgLabs/main?filepath=notebooks%2Findex.ipyn)
 
-1. Launch the binder by clicking on the badge above or going to: https://mybinder.org/v2/gh/geoscixyz/gpgLabs/master?filepath=Notebooks%2Findex.ipynb.
+1. Launch the binder by clicking on the badge above or going to: https://mybinder.org/v2/gh/geoscixyz/gpgLabs/main?filepath=notebooks%2Findex.ipynb.
    This can sometimes take a couple minutes, so be patient...
 
 2. Select the notebook of interest from the contents
@@ -53,7 +53,7 @@ To setup your software environment, we recommend you use the provided conda envi
 
 ```
 conda env create -f environment.yml
-conda activate gpgLabs-environment
+conda activate geosci-labs
 ```
 
 alternatively, you can install dependencies through pypi
@@ -78,23 +78,14 @@ For more information on running Jupyter notebooks, see the [Jupyter Documentatio
 
 ## Issues
 
-If you run into problems or bugs, please let us know by [creating an issue](https://github.com/geoscixyz/em-apps/issues/new) in this repository.
+If you run into problems or bugs, please let us know by [creating an issue](https://github.com/geoscixyz/gpgLabs/issues/new) in this repository.
 
 ## For Contributors
 
-### Notebook Structure
+We are glad you are interested in contributing! 
 
-Each notebook has the following structure
+This repo tracks [geosci-labs](https://github.com/geoscixyz/geosci-labs). To contribute code, ideas or bug-fixes, please head over to the [geosci-labs](https://github.com/geoscixyz/geosci-labs) repository. 
 
-- **Purpose** : Motivation and key concepts addressed by the notebook
-- **Setup** : Overview of the relevant parameters in the problem
-- **Questions** : Guiding questions related to the purpose
-- **App** : interactive visualizations
-- **Explore** : further questions that can be explored with the app
 
-### Setting up your environment
-
-- to develop code for these notebooks, please see https://github.com/geoscixyz/gpgLabs
-- add the notebook name and path to the [index](index.ipynb)
 
 
