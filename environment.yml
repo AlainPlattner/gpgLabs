@@ -22,4 +22,4 @@ dependencies:
   - scikit-learn<1.0
   - SimPEG=0.15.0
   - pip:
-    - git+https://github.com/geoscixyz/geosci-labs
+    - git+git+https://github.com/AlainPlattner/geosci-labs
