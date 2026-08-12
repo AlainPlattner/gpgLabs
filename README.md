@@ -1,7 +1,7 @@
 
-### Locally
 
-To run them locally, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
+
+To install the labs, you will need to have python installed, preferably through [anaconda](https://www.anaconda.com/download/).
 
 You can then clone this reposiroty. From a command line, run
 
@@ -22,6 +22,8 @@ conda env create -f environment.yml
 conda activate geosci-labs
 ```
 
+The first time after activating geosci-labs, you need to run the following:
+```conda install -c conda-forge openssl=3.5.5```
 
 You can then launch Jupyter
 ```
