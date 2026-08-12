@@ -5,6 +5,7 @@ channels:
   - defaults
 dependencies:
   - cvxopt
+  - openssl=3.5.5
   - deepdish
   - discretize=0.7.0
   - empymod=2.0.0
