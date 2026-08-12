@@ -22,7 +22,5 @@ dependencies:
   - scikit-learn<1.0
   - SimPEG=0.15.0
   - pydiso
-  - openssl=3.5.5
-  - krb5=1.22.2
   - pip:
     - git+https://github.com/geoscixyz/geosci-labs@v0.3.1
