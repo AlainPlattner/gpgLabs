@@ -25,7 +25,7 @@ conda activate geosci-labs
 The first time after activating geosci-labs, you need to run the following:
 
 ```
-conda install -c conda-forge openssl=3.5.5
+conda install -y -c conda-forge openssl=3.5.5
 ```
 
 You can then launch Jupyter
