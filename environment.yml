@@ -2,7 +2,7 @@ name: geosci-labs
 
 channels:
   - conda-forge
-  - defaults
+  - nodefaults
 dependencies:
   - cvxopt
   - deepdish
@@ -22,7 +22,7 @@ dependencies:
   - scikit-learn<1.0
   - SimPEG=0.15.0
   - pydiso
-  - openssl=3.5.5-hf411b9b_1
-  - krb5=1.22.2-h0ea6238_0
+  - openssl=3.5.5
+  - krb5=1.22.2
   - pip:
     - git+https://github.com/geoscixyz/geosci-labs@v0.3.1
