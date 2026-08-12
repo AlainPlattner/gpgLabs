@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - cvxopt
-  - openssl=3.5.5
   - deepdish
   - discretize=0.7.0
   - empymod=2.0.0
@@ -23,5 +22,7 @@ dependencies:
   - scikit-learn<1.0
   - SimPEG=0.15.0
   - pydiso
+  - openssl=3.5.5-hf411b9b_1
+  - krb5=1.22.2-h0ea6238_0
   - pip:
     - git+https://github.com/geoscixyz/geosci-labs@v0.3.1
